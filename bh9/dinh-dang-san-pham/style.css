@@ -1,0 +1,29 @@
+.sanpham{
+    width: 250px; height: 300px;
+    border: 1px solid red;
+}
+.sanpham h2{
+    text-align: center; margin: 10px 0px;
+}
+.sanpham .img-pro{
+    width: 150px; display: block; margin: auto;
+    z-index: 1; position: relative;
+}
+.sanpham .img-sp{
+    position: relative; 
+    top: -256px;
+    right: -180px;
+}
+.sanpham .price1{ 
+    text-decoration: line-through; font-size: 1.2em;
+    position: relative; top: -70px; padding-left: 20px;
+}
+.sanpham .price2{ 
+    font-size: 1.5em; color: blue; font-weight: bold;
+    position: relative; top: -70px; padding-left: 20px;
+}
+.sanpham .tool{
+    position: relative; width: 40px;
+    /* border: 1px solid blue; */
+    top: -200px; right: -210px;
+}
