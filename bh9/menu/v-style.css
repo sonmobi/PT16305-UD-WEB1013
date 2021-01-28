@@ -1,18 +1,22 @@
-#v-menu {
+#v-menu{
     width: 200px; background-color: cyan;
 }
 #v-menu ul{
     list-style: none; padding: 0px;
 }
-#v-menu ul li a {
-    display: block; background-color:yellowgreen;
+#v-menu ul li{  position: relative; width: 200px; }
+#v-menu ul li a{
+    display: block; 
     border: 1px solid red;
+    background-color: yellowgreen;
+    padding: 5px; 
+    text-decoration: none; 
+    color: blue;
 }
-#v-menu ul li{ position: relative; width: 200px;}
-#v-menu ul li ul{
-    position: absolute; 
+#v-menu ul li a:hover{     background-color: yellow; }
+#v-menu ul li ul{     position: absolute; 
     left: 100%; top: 0px; display: none;
 }
-#v-menu ul li:hover >ul{
+#v-menu ul li:hover>ul {
     display: block;
 }
