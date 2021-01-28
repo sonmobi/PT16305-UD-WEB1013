@@ -5,24 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        
+        h2{text-align: center; margin: 0px;}
+        #frm{ width: 300px; margin: auto; border: 1px solid red; 
+            padding: 20px; border-radius: 10px;
+            box-shadow: 0px 0px 10px rgb(44, 43, 43);
+            }
+        label{ display: block; margin-top: 10px;}
+         .txt{ width: 100%;}
+         .group-btn{ text-align: center; margin-top: 20px;}
     </style>
 </head>
 <body>
-    <h2>Đăng ký tài khoản</h2>
-    <form action="https://google.com" method="POST">
-        <label>Username</label>
-        <input type="text" name="username">
-        <label>Password</label>
-        <input type="password" name="pass">
-        <label>  Gender </label>
-        <label> 
-            <input type="radio" name="gioitinh" value="0"> Nam 
-            <input type="radio" name="gioitinh" value="1"> Nữ 
-        </label>
-        <button type="submit">Register</button>
-        <button type="reset">Reset</button>
-    </form>
-
+    <div id="frm">
+        <h2>Đăng ký tài khoản</h2>
+        <form action="https://google.com" method="POST">
+            <label>Username</label>
+            <input type="text" name="username" class="txt">
+            <label>Password</label>
+            <input type="password" name="pass" class="txt">
+            <label>  Gender </label>
+            <label> 
+                <input type="radio" name="gioitinh" value="0"> Nam 
+                <input type="radio" name="gioitinh" value="1"> Nữ 
+            </label>
+            <div class="group-btn">
+                <button type="submit">Register</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
