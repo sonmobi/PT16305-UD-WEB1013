@@ -1,0 +1,30 @@
+#h-menu{
+    width: 100%; background-color: cyan;
+}
+#h-menu ul{
+    list-style: none; padding: 0px;
+}
+#h-menu ul li{  position: relative; width: 100px;     
+}
+#h-menu>ul>li{ 
+    display: inline-block; /*Ngang*/ 
+} 
+#h-menu ul li a{
+    display: block; 
+    /* border: 1px solid red; */
+    /* background-color: yellowgreen; */
+    padding: 5px; 
+    text-decoration: none; 
+    color: blue;
+   
+}
+#h-menu>ul>li>a{  text-align: center;}
+#h-menu>ul>li>ul li a{background-color: yellowgreen;}
+#h-menu ul li a:hover{     background-color: yellow; }
+#h-menu ul li ul{    position: absolute; 
+    /* left: 100%; top: 0px;  */
+    display: none;
+}
+#h-menu ul li:hover>ul {
+    display: block;
+}
